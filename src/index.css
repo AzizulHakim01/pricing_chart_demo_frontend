@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Bruno+Ace+SC &family=Kanit:wght@500&family=Roboto&family=Roboto+Condensed&family=Vina+Sans&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Bruno Ace SC', cursive;
+    font-family: 'Kanit', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Vina Sans', cursive;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+body {
+    max-width: 1200px;
+    margin: auto;
+    background-color: #FFFFFF;
+}

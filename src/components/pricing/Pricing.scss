@@ -1,0 +1,34 @@
+.pricing{
+    width:1050px;
+    margin: auto;
+    margin-top:50px;
+    .heading{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-bottom: 40px;
+
+        
+
+        .toggle__button{
+            display: flex;
+            gap:10px;
+            align-items: center;
+
+            p{
+                cursor: pointer;
+                font-weight: 600;
+            }
+            span{
+                cursor: pointer;
+            }
+        }
+    }
+    .charts{
+        .chart{
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+    }
+}

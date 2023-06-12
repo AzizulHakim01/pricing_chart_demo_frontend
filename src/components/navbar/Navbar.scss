@@ -1,0 +1,50 @@
+.navbar{
+    display: flex;
+    height: 100px;
+    align-items: center;
+    justify-content: space-between;
+    .logo{
+        
+        img{
+            width:90px;
+        }
+    }
+    .menu{
+        
+        ul{
+            display: flex;
+            gap:50px;
+            align-items: center;
+            justify-content: center;
+            li{
+                list-style: none;
+                font-weight: 600;
+                font-size: 1.1em;
+                cursor: pointer;
+            }
+        }
+    }
+    .login-register{
+        display: flex;
+        align-items: center;
+        gap:15px;
+        .log__in__button_header{
+            border: 1px solid #00b289;
+            font-size: 1em;
+            padding: 6px 10px;
+            font-weight:800;
+            color:#00b289;
+            border-radius: 2px;
+            cursor: pointer;
+        }
+        .start__button__header{
+            font-size: 1em;
+            padding: 6px 10px;
+            font-weight:900;
+            color:#fff;
+            background-color:#00b289;
+            border-radius: 2px;
+            cursor: pointer
+        }
+    }
+}
